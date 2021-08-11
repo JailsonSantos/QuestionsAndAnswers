@@ -1,0 +1,298 @@
+@media only screen and (max-width: 768px){
+    
+    #page-auth {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+
+        aside{
+
+            background-color: #51bfa6;
+            color: #fff;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            padding: 120px 80px;
+
+            img{
+                max-width: 100%;
+                border-radius: 50%;
+            }
+
+            strong{
+                text-align: center;
+                font: 700 26px 'Poppins', sans-serif;
+                line-height: 42px;
+                margin-top: 16px;
+            }
+            p{
+                text-align: center;
+                font-size: 20px;
+                line-height: 32px;
+                margin-top: 16px;
+                color: #f8f8f8;
+            }
+        }
+
+        main{
+
+            padding: 32px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-content{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 420px;
+            align-items: stretch;
+            text-align: center;
+
+            > img {
+                align-self: center;
+                max-width: 150px;
+                border-radius: 50%;
+                border: 1px solid #51bfa6;
+            }
+
+            h2{
+                font-size: 24px;
+                margin: 64px 0 24px;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            form{
+                input{
+                    height: 50px;
+                    border-radius: 8px;
+                    padding: 0 16px;
+                    background: #fff;
+                    border: 1px solid #a8a8b3;
+                }
+
+                button {
+                    margin-top: 16px;
+                }
+
+                button, input {
+                    width: 100%;
+                }
+            }
+
+            p{
+                font-size: 14px;
+                color: #737380;
+                margin-top: 16px;
+
+                a{
+                    color: #e559f9;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 769px){
+
+    #page-auth {
+        display: flex;
+        height: 100vh;
+
+        aside{
+
+            background-color: #51bfa6;
+            color: #fff;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            padding: 120px 80px;
+
+            img{
+                max-width: 100%;
+                border-radius: 50%;
+            }
+
+            strong{
+                text-align: center;
+                font: 700 30px 'Poppins', sans-serif;
+                line-height: 42px;
+                margin-top: 16px;
+            }
+            p{
+                text-align: center;
+                font-size: 25px;
+                line-height: 32px;
+                margin-top: 16px;
+                color: #f8f8f8;
+            }
+        }
+
+        main{
+
+            padding: 32px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-content{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 300px;
+            align-items: stretch;
+            text-align: center;
+
+            > img {
+                align-self: center;
+                max-width: 150px;
+                border-radius: 50%;
+                border: 1px solid #51bfa6;
+            }
+
+            h2{
+                font-size: 24px;
+                margin: 64px 0 24px;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            form{
+                input{
+                    height: 50px;
+                    border-radius: 8px;
+                    padding: 0 16px;
+                    background: #fff;
+                    border: 1px solid #a8a8b3;
+                }
+
+                button {
+                    margin-top: 16px;
+                }
+
+                button, input {
+                    width: 100%;
+                }
+            }
+
+            p{
+                font-size: 14px;
+                color: #737380;
+                margin-top: 16px;
+
+                a{
+                    color: #e559f9;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    
+    #page-auth {
+        display: flex;
+        align-items: stretch;
+        height: 100vh;
+
+        aside{
+            flex: 7;
+
+            background-color: #51bfa6;
+            color: #fff;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            padding: 120px 80px;
+
+            img{
+                max-width: 520px;
+                border-radius: 50%;
+            }
+
+            strong{
+                text-align: center;
+                font: 700 36px 'Poppins', sans-serif;
+                line-height: 42px;
+                margin-top: 16px;
+            }
+            p{
+                text-align: center;
+                font-size: 24px;
+                line-height: 32px;
+                margin-top: 16px;
+                color: #f8f8f8;
+            }
+        }
+
+        main{
+            flex: 8;
+
+            padding:32px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-content{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 320px;
+            align-items: stretch;
+            text-align: center;
+
+            > img {
+                align-self: center;
+                max-width: 200px;
+                border-radius: 50%;
+                border: 1px solid #51bfa6;
+            }
+
+            h2{
+                font-size: 24px;
+                margin: 64px 0 24px;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            form{
+                input{
+                    height: 50px;
+                    border-radius: 8px;
+                    padding: 0 16px;
+                    background: #fff;
+                    border: 1px solid #a8a8b3;
+                }
+
+                button {
+                    margin-top: 16px;
+                }
+
+                button, input {
+                    width: 100%;
+                }
+            }
+
+            p{
+                font-size: 14px;
+                color: #737380;
+                margin-top: 16px;
+
+                a{
+                    color: #e559f9;
+                }
+            }
+        }
+    }  
+}

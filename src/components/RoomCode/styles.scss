@@ -1,0 +1,62 @@
+@media only screen and (max-width: 768px){
+
+    .room-code{
+        height: 40px;
+        border-radius: 8px;
+        overflow: hidden;
+    
+        background: #FFF;
+        border: 1px solid #51bfa6;
+        cursor: pointer;
+    
+        display: flex;
+    
+        div{
+            background: #51bfa6;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        span{
+            display: block;
+            align-self: center;
+            flex: 1;
+            padding: 0 16px 0 12px;
+            width: 200px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }    
+}
+
+.room-code{
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+
+    background: #FFF;
+    border: 1px solid #51bfa6;
+    cursor: pointer;
+
+    display: flex;
+
+    div{
+        background: #51bfa6;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    span{
+        display: block;
+        align-self: center;
+        flex: 1;
+        padding: 0 16px 0 12px;
+        width: 240px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
